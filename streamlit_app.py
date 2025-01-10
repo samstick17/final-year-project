@@ -56,7 +56,6 @@ if uploaded_file is not None:
         col1, col2 = st.columns(2)
 
         with col1:
-            st.set_option('deprecation.showPyplotGlobalUse', False)
             st.write("Bar chat visualization")
             sentiments = ["positive", "negative", "neutral"]
             values = [positive_message, negative_message, neutral_message]
